@@ -8,6 +8,16 @@ let UIController = function fixTime() {
 
 	//define date
 	let d = new Date();
+/** @format */
+
+let UIController = function fixTime() {
+	DOMElements = {
+		exact_time: 'exact_time',
+		submit_time: 'time_submit',
+	};
+
+	//define date
+	let d = new Date();
 
 	//pullout old html
 	html = '<div class="top_date">%Saturday, April 20 2020%</div>';
